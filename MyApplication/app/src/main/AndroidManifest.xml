@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tcumi_h505.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SeekbarActivity"
+            android:label="@string/title_activity_seekbar" >
+        </activity>
+        <activity
+            android:name=".RatingbarActivity"
+            android:label="@string/title_activity_ratingbar" >
+        </activity>
+        <activity
+            android:name=".ImageSwitcherActivity"
+            android:label="@string/title_activity_image_switcher" >
+        </activity>
+        <activity
+            android:name=".ViewAnimatorActivity"
+            android:label="@string/title_activity_view_animator" >
+        </activity>
+        <activity
+            android:name=".Spinner1Activity"
+            android:label="@string/title_activity_spinner1" >
+        </activity>
+        <activity
+            android:name=".Spinner2Activity"
+            android:label="@string/title_activity_spinner2" >
+        </activity>
+        <activity
+            android:name=".Spinner3Activity"
+            android:label="@string/title_activity_spinner3" >
+        </activity>
+        <activity
+            android:name=".ExpandableListView1Activity"
+            android:label="@string/title_activity_expandable_list_view1" >
+
+        </activity>
+        <activity
+            android:name=".ExpandableListView2Activity"
+            android:label="@string/title_activity_expandable_list_view2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
